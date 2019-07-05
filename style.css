@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+
+nav {
+    background-color: #2dcc6f;
+    height: 10px;
+}
+
+div{
+    display: block;
+}
+
+div img{
+    background-size: cover;
+    width: 100%;
+
+}
+
+.hand{
+    position: absolute;
+    width: 27%;
+    left: 775px;
+    top: 100px;
+}
+
+p {
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-size: 32pt;
+    color: white;
+    left: 50px;
+    margin-top: -300px;
+}
