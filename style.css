@@ -1,35 +1,57 @@
 body{
-    margin:0;
+    margin: 0;
 }
 
-nav {
+nav{
+    height: 8px;
     background-color: #2dcc6f;
-    height: 10px;
 }
 
-div{
-    display: block;
-}
-
-div img{
+.banner{
     background-size: cover;
     width: 100%;
-
 }
 
 .hand{
+    position: fixed;
     position: absolute;
     width: 27%;
     left: 775px;
-    top: 100px;
+    top: 97px;
 }
 
-p {
+.notify {
     position: absolute;
     font-family: 'Pacifico', cursive;
-    font-style: normal;
-    font-size: 32pt;
+    font-size: 34pt;
     color: white;
-    left: 50px;
-    margin-top: -300px;
+    left: 284px;
+    margin-top: -100px;
+}
+
+.text1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: white;
+    left: 284px;
+    margin-top: -290px;
+    margin-left: 285px;
+}
+
+.text2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: white;
+    left: 284px;
+    margin-top: -12px;
+    margin-left: 285px;
+}
+
+nav img{
+    opacity: 0.5;
+    padding: 10px;
+    width: 50px;
+    left: 70px; 
 }
